@@ -27,8 +27,8 @@ class Config:
 
     @staticmethod
     def init_config(file):
-        if file:
-            Config.config.read_file(file)
+        if file and os.path.exists(file):
+            Config.config.read([file])
 
     @staticmethod
     def get_or_else(section, option, default_value):
