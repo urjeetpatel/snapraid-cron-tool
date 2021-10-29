@@ -3,7 +3,7 @@ name = "snapraid-cron-tool"
 version = "0.0.1"
 description = "A helper to schedule and run Snapraid tasks"
 authors = ["Urjeet Patel <violentmagician.opensource@gmail.com>"]
-licence = "MIT"
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.8"
